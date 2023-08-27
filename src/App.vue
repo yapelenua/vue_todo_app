@@ -39,7 +39,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { collection, onSnapshot, addDoc, deleteDoc, doc, updateDoc } from "firebase/firestore";
 import { db } from '@/firebase'
 
-const mesage = 'Todlo'
+const mesage = 'Welcome Todo'
 
 const todos = ref([])
 
